@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
   <?php include 'navItems.php'; ?>
+  <?php include 'slides.php'; ?>
 </head>
 
 <body>
@@ -56,8 +57,11 @@
     <div class="glide">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          <li class="glide__slide"><img class="slideImage" src="./slide1.png" /></li>
-          <li class="glide__slide"><img class="slideImage" src="./slide2.png" /></li>
+          <?php foreach ($slides as $slide) { ?>
+          <li class="glide__slide"><img class="slideImage" src="<?php echo $slide; ?>" /></li>
+          <?php } ?>
+          <!-- <li class="glide__slide"><img class="slideImage" src="./slide1.png" /></li>
+          <li class="glide__slide"><img class="slideImage" src="./slide2.png" /></li> -->
         </ul>
       </div>
       <div class="glide__arrows" data-glide-el="controls">
