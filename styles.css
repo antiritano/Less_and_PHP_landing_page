@@ -72,3 +72,39 @@ body {
 .glide__slides {
   cursor: grab;
 }
+.btn__blue {
+  background-color: #00bbe3;
+  color: white;
+  border: #00bbe3 4px solid;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn__blue:hover {
+  background-color: white;
+  color: #00bbe3;
+}
+.findYourFit {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.findYourFit__wrapper {
+  height: 300px;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://www.bedgear.com/media//wysiwyg/cms/homepage/BG-Homepage-PillowIDBG-Desktop.jpg);
+}
+.findYourFit__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+  background-color: white;
+  height: 80%;
+}

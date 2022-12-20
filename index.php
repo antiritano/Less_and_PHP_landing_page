@@ -60,14 +60,21 @@
           <?php foreach ($slides as $slide) { ?>
           <li class="glide__slide"><img class="slideImage" src="<?php echo $slide; ?>" /></li>
           <?php } ?>
-          <!-- <li class="glide__slide"><img class="slideImage" src="./slide1.png" /></li>
-          <li class="glide__slide"><img class="slideImage" src="./slide2.png" /></li> -->
         </ul>
       </div>
       <div class="glide__arrows" data-glide-el="controls">
         <button class="glide__arrow glide__arrow--left" data-glide-dir="<">←</button>
         <button class="glide__arrow glide__arrow--right" data-glide-dir=">">→</button>
       </div>
+    </div>
+    <div class="findYourFit">
+      <section class="findYourFit__wrapper">
+        <div class="findYourFit__content">
+          <h2>FIND YOUR FIT</h2>
+          <a class="btn__blue" href="/" data-uw-rm-brl="false">Take the Quiz</a>
+          <p>Finding the correct fitting pillow is critical to rest and recovery.</p>
+        </div>
+      </section>
     </div>
     <script>
       new Glide('.glide').mount()
