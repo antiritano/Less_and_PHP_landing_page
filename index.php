@@ -12,6 +12,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
   <?php include 'navItems.php'; ?>
 </head>
 
@@ -31,7 +33,6 @@
           setTimeout(() => {
             document.getElementsByClassName("promoBanner__output")[0].innerText = item;
           }, INTERVAL * index);
-
         });
       </script>
     </div>
@@ -52,6 +53,21 @@
         <input type="text" placeholder="Search">
       </div>
     </div>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide"><img class="slideImage" src="./slide1.png" /></li>
+          <li class="glide__slide"><img class="slideImage" src="./slide2.png" /></li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">←</button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">→</button>
+      </div>
+    </div>
+    <script>
+      new Glide('.glide').mount()
+    </script>
     <script src="" async defer></script>
 </body>
 
