@@ -56,8 +56,13 @@
     </div>
     <div class="glide">
       <div class="glide__track" data-glide-el="track">
-        <ul class="glide__slides">
-          <?php foreach ($slides as $slide) { ?>
+        <ul class="glide__slides desktop">
+          <?php foreach ($slidesDesktop as $slide) { ?>
+          <li class="glide__slide"><img class="slideImage" src="<?php echo $slide; ?>" /></li>
+          <?php } ?>
+        </ul>
+        <ul class="glide__slides mobile">
+          <?php foreach ($slidesMobile as $slide) { ?>
           <li class="glide__slide"><img class="slideImage" src="<?php echo $slide; ?>" /></li>
           <?php } ?>
         </ul>
