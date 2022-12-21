@@ -145,8 +145,6 @@
     	c7.8,0,15-2.7,19.2-7.2c1.7-1.8,4.6-1.9,6.4-0.2c1.8,1.7,1.9,4.6,0.2,6.4C421.1,227.1,411.7,230.7,401.3,230.7z">
             </path>
           </svg>
-
-
         </div>
         <h3>Over 19 Million Happy Sleepers</h3>
       </div>
@@ -181,6 +179,12 @@
         <h3>Over 65,000 5-star reviews</h3>
       </div>
     </div>
+    <div class="Bread__wrapper">
+      <div class="Bread__content">
+        <h4>Financing options available starting at 0% APR for 3, 6, or 12 months* with Bread ®</h4>
+      </div>
+    </div>
+
     <script>
       new Glide('.glide').mount()
     </script>

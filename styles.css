@@ -126,3 +126,20 @@ body {
   width: 100px;
   height: auto;
 }
+.Bread__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Bread__content {
+  display: flex;
+  justify-content: center;
+  background-color: #00bbe3;
+  width: 80%;
+  color: white;
+}
+.Bread__content h4 {
+  padding: 0px;
+  margin: 15px;
+}
